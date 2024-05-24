@@ -1,0 +1,10 @@
+- react is SPA(single page app) and react-dom is for dealing with web like react-native is for mobile, with no functionality for routing which is compensated by libraries like react-dom, handled by bundlers like CRA (creat-react-app), vite etc
+- in CRA's index.js we dont have a script tag but it works with the help of react-scripts library
+
+- first step after creating a react or any other project is to head to the package.json file (if its there of course)
+- package-lock.json has dependencies version locked for stability and other stuff
+- manifest.json is for mobile apps
+- robot.txt is for search engine
+- components instead in jsx can also be written like functions, for ex `<App/>` can be replaced by `App()` in jsx. But this shouldnt be done to maintain code conventions and readability. This is possible because of course a component is actually a function.
+- react takes care of the ui changes
+- when page reloads it actually creates the whole DOM again and repaints the screen
